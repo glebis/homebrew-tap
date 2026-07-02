@@ -1,7 +1,7 @@
 cask "cull" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.1"
+  version "0.2.4"
   sha256 :no_check
 
   url "https://github.com/glebis/cull/releases/download/v#{version}/Cull_#{version}_#{arch}.dmg"
