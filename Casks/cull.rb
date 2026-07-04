@@ -1,10 +1,8 @@
 cask "cull" do
-  arch arm: "aarch64", intel: "x64"
-
-  version "0.2.4"
+  version "0.2.5"
   sha256 :no_check
 
-  url "https://github.com/glebis/cull/releases/download/v#{version}/Cull_#{version}_#{arch}.dmg"
+  url "https://github.com/glebis/cull/releases/download/v#{version}/Cull_#{version}_aarch64.dmg"
   name "Cull"
   desc "Local-first image review and curation tool for large image sets"
   homepage "https://github.com/glebis/cull"
@@ -14,6 +12,7 @@ cask "cull" do
     strategy :github_latest
   end
 
+  depends_on arch: :arm64
   depends_on macos: ">= :monterey"
 
   app "Cull.app"
