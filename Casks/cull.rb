@@ -1,5 +1,5 @@
 cask "cull" do
-  version "0.2.5"
+  version "0.3.1"
   sha256 :no_check
 
   url "https://github.com/glebis/cull/releases/download/v#{version}/Cull_#{version}_aarch64.dmg"
