@@ -1,6 +1,6 @@
 cask "cull" do
-  version "0.5.1"
-  sha256 "322d97d8d20de111714b4fb5173d573eb9f2da712ac638b725bf648f216fddcf"
+  version "0.6.2"
+  sha256 "4962ba84bab0c211ce29e3229d5e06fec9248fc74795696b92cd94b7b3d10456"
 
   url "https://github.com/glebis/cull/releases/download/v#{version}/Cull_#{version}_aarch64.dmg"
   name "Cull"
