@@ -1,6 +1,6 @@
 cask "cenno" do
-  version "0.5.0"
-  sha256 "8dcb3eb67480a847d28d019ee70183d94b70f1598d1bbf27d8e22e420e41b3c1"
+  version "0.6.0"
+  sha256 "4ed6736e76b69ce92d5881872c464a7ef7a4a4d89a0a92e34e81a8fa628757b7"
 
   url "https://github.com/glebis/cenno/releases/download/v#{version}/cenno_#{version}_aarch64.dmg"
   name "cenno"
